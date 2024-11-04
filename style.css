@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+.single-day-regular {
+    font-family: "Single Day", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+html {
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #26242a;
+}
+
+h1 {
+    color: #C24D71;
+    font-family: "Single Day";
+    color: antiquewhite;
+}
+
+h2 {
+    color: white;
+    font-size: 5rem;
+}
+
+footer {
+    background-color: #C2B946;
+    min-height: 80px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.ball {
+    background-color: white;
+    width: 50px;
+    height: 50px; 
+    border-radius: 50%;
+    border: 2px solid red
+}
+button {
+    background-color: rgb(89, 230, 89);
+    font-family: "Single Day";
+}
