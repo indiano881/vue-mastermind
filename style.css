@@ -6,6 +6,11 @@
     font-weight: 400;
     font-style: normal;
   }
+
+.dynapuff-master {
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+}
 html {
     height: 100vh;
 }
@@ -13,19 +18,26 @@ html {
 body {
     display: flex;
     flex-direction: column;
+    font-family: "DynaPuff", system-ui;
     height: 100%;
     background-color: #26242a;
 }
 
 h1 {
     color: #C24D71;
-    font-family: "Single Day";
+    
+    color: antiquewhite;
+}
+
+.dyna {
+    font-family: "DynaPuff";
     color: antiquewhite;
 }
 
 h2 {
     color: white;
     font-size: 5rem;
+    
 }
 
 footer {
@@ -42,8 +54,11 @@ footer {
     height: 50px; 
     border-radius: 50%;
     border: 2px solid red
+
 }
 button {
     background-color: rgb(89, 230, 89);
-    font-family: "Single Day";
+    font-family: "DynaPuff";
+    font-size: 2rem;
+    font-weight: bolder;
 }
