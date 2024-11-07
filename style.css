@@ -36,7 +36,7 @@ h1 {
 
 h2 {
     color: rgb(89, 230, 89);
-    font-size: 5rem;
+    font-size: 3rem;
     
 }
 
@@ -64,11 +64,11 @@ button {
 }
 
 .green {
-    color: green;
+    color: rgb(89, 230, 89);
 }
 
 .yellow {
-    color: yellow;
+    color: #E4FF82;
 }
 
 .red {
