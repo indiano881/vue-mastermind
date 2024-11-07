@@ -34,7 +34,13 @@ const app = Vue.createApp({
         handleCharacterChange(event){
             console.log('Character selected:', event.target.value);
             this.choosenCharacter=event.target.value
-          },
+        },
+        activatePower(power) {
+            if (power==="heart") {
+                this.seconds+=5
+            }
+
+        }
     },
     computed: {
         timerColorClass() {
