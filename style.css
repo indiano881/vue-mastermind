@@ -20,22 +20,22 @@ body {
     flex-direction: column;
     font-family: "DynaPuff", system-ui;
     height: 100%;
-    background-color: #26242a;
+    background-color: #AC82FF;
 }
 
 h1 {
     color: #C24D71;
     
-    color: antiquewhite;
+    color: black;
 }
 
 .dyna {
     font-family: "DynaPuff";
-    color: antiquewhite;
+    color: black;
 }
 
 h2 {
-    color: white;
+    color: rgb(89, 230, 89);
     font-size: 5rem;
     
 }
@@ -61,4 +61,16 @@ button {
     font-family: "DynaPuff";
     font-size: 2rem;
     font-weight: bolder;
+}
+
+.green {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.red {
+    color: red;
 }

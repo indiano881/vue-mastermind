@@ -20,6 +20,17 @@ const app = Vue.createApp({
         stopTime() {
             clearInterval(this.timer); // optional method to stop the timer
         }
+    },
+    computed: {
+        timerColorClass() {
+            if (this.seconds > 15) {
+                return 'green';
+            } else if (this.seconds >= 6) {
+                return 'yellow';
+            } else {
+                return 'red';
+            }
+        }
     }
 })
 
