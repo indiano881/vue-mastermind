@@ -82,9 +82,17 @@ button {
     padding: 15px;
 }
 
-.charactersContainer {display: flex;}
-
+.charactersContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.charactersContainer .powers {
+    margin-right: 20px;
+}
 .powerImg {
     border-radius: 50%; 
     border: 2px solid black;
+    margin-right: 20px;
+
 }
