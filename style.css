@@ -24,9 +24,8 @@ body {
 }
 
 h1 {
-    color: #C24D71;
-    
     color: black;
+    margin: 0;
 }
 
 .dyna {
@@ -37,6 +36,7 @@ h1 {
 h2 {
     color: rgb(89, 230, 89);
     font-size: 3rem;
+    margin: 0;
     
 }
 
@@ -73,4 +73,18 @@ button {
 
 .red {
     color: red;
+}
+
+.heroImg {
+    background-color: white;
+    border-radius: 50%; 
+    border: 2px solid black;
+    padding: 15px;
+}
+
+.charactersContainer {display: flex;}
+
+.powerImg {
+    border-radius: 50%; 
+    border: 2px solid black;
 }

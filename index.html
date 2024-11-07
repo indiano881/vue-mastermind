@@ -18,14 +18,21 @@
     <h1>{{ title }}</h1>
     <h2 :class="timerColorClass">Timer: {{ seconds }}</h2>
     <button @click="startTime">{{ messageBtn }}</button>
-    <button @click="generatedSecretCombination"> secretcomb{{ secretCombination }}</button>
+   
     <div class="container">
         <p v-for="item in numbers" :key="item" class="ball">{{ item }}</p>
     </div>
 
-<div>
-    <img src="./images/characters/chemist-svgrepo-com.svg" alt="">
-</div>
+<div class="charactersContainer">
+    <div>
+        <img class="heroImg" src="./images/characters/wolverine.svg" alt="" width="150px" height="auto">
+    </div>
+    <div class="charactersContainer">
+        <p ><img class="powerImg" src="./images/powers/power-detective.svg" alt="" width="50px" height="auto"></p>
+        <p ><img class="powerImg" src="./images/powers/power-time.svg" alt="" width="50px" height="auto"></p>
+    </div>
     
+</div >
+    <button @click="generatedSecretCombination"> secretcomb{{ secretCombination }}</button>
 </body>
 </html>
