@@ -7,7 +7,8 @@ const app = Vue.createApp({
             timer: null, // to store the timer reference,
             numbers: [17, 18, 19, 20, 13, 14, 15, 16, 9, 10, 11, 12, 5, 6, 7, 8, 1, 2, 3, 4],
             colorsArray: ["red","orange","yellow","green","blue","purple","pink","brown","aqua"],
-            secretCombination: []
+            secretCombination: [],
+            choosenCharacter: "wolverine"
         }
     },
     methods: {
@@ -29,7 +30,11 @@ const app = Vue.createApp({
                 this.secretCombination.push(this.colorsArray[randomColourIndex])
                 console.log(this.secretCombination)
             }
-        }
+        },
+        handleCharacterChange(event){
+            console.log('Character selected:', event.target.value);
+            this.choosenCharacter=event.target.value
+          },
     },
     computed: {
         timerColorClass() {
